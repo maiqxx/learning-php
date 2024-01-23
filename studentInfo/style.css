@@ -1,0 +1,141 @@
+body {
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+#left-container{
+    width: 30%;
+
+}
+
+#right-container {
+    width: 65%;
+    display: inline-block;
+    margin-left: auto;
+
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+table, th, td {
+    border: 1px solid #ddd;
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    width:auto;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+.odd {
+    background-color: #ffffff; /* Set the background color for odd rows */
+}
+
+.even {
+    background-color: #f9f9f9; /* Set the background color for even rows */
+}
+
+input[type="text"],
+input[type="email"],
+input[type="date"],
+input[type="password"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin: 5px 0 10px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+input[type="text"][readonly] {
+    background-color: #f2f2f2;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #d32f2f;
+    padding: 10px;
+    cursor: pointer;
+    width: 'auto';
+}
+
+#cancel:hover {
+    background-color: #d32f2f;
+    padding: 10px;
+    cursor: pointer;
+    width: 'auto';
+}
+
+#updateForm {
+    display: none;
+}
+
+.pagination {
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.pagination a {
+    text-decoration: none;
+    color: #333;
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    margin-right: 5px;
+    border-radius: 3px;
+    transition: background-color 0.3s;
+}
+
+.pagination a:hover {
+    background-color: #ddd;
+}
+
+.pagination .active {
+    background-color: #4CAF50;
+    color: white;
+}
